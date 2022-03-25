@@ -1,10 +1,10 @@
-const computerChoiceDisplay = document.getElementById('computer-choice')
-const userChoiceDisplay = document.getElementById('user-choice')
-const resultDisplay = document.getElementById('result')
+const computerChoiceDisplay = document.getElementById('Ordinateur')
+const userChoiceDisplay = document.getElementById('Vous')
+const resultDisplay = document.getElementById('Résultat')
 const possibleChoices = document.querySelectorAll('button')
-let userChoice
-let computerChoice
-let result
+let Vous
+let Ordinateur
+let Résultat
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
   userChoice = e.target.id
